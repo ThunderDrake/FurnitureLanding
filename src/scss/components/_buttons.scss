@@ -1,0 +1,40 @@
+.button {
+  box-shadow: none;
+  font: 500 30px / 35px "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #f5f5f5;
+  background-color: var(--color-accent);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 20px 40px rgba(216, 96, 106, 0.25);
+    background-color: lighten(#d8606a, 2%);
+  }
+
+  &:active {
+    background-color: darken(#d8606a, 10%);
+  }
+
+  &--small {
+    background-color: var(--color-main);
+
+    &:hover {
+      box-shadow: 0 20px 40px rgba(#2f5d7a, 0.25);
+      background-color: lighten(#2f5d7a, 2%);
+    }
+
+    &:active {
+      background-color: darken(#2f5d7a, 10%);
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    font-size: 25px;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

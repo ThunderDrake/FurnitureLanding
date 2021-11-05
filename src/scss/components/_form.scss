@@ -1,0 +1,206 @@
+.form-section {
+  margin-bottom: 200px;
+
+  @media screen and (max-width: 1024px) {
+    margin-bottom: 120px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 80px;
+  }
+
+  @media screen and (max-width: 450px) {
+    margin-bottom: 60px;
+  }
+}
+
+.form-background {
+  padding: 1px;
+  background-image: url("../img/form-bg.jpg");
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form-section__title {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 1620px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 120px 165px 120px auto;
+  outline: 1px solid var(--color-black);
+  outline-offset: -12px;
+  padding: 78px 70px;
+  max-width: 675px;
+  background-color: var(--color-white);
+
+  &__title {
+    margin: 0;
+    margin-bottom: 15px;
+    max-width: 490px;
+    font: 400 38px / 44px "Alice", serif;
+    text-align: center;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 768px) {
+      max-width: 380px;
+      font-size: 30px;
+      line-height: 35px;
+    }
+
+    @media screen and (max-width: 450px) {
+      max-width: 250px;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+
+  &__subtitle {
+    margin: 0;
+    margin-bottom: 50px;
+    max-width: 440px;
+    font: 400 25px / 30px "Montserrat", sans-serif;
+    text-align: center;
+
+    span {
+      color: var(--color-accent);
+    }
+
+    @media screen and (max-width: 768px) {
+      margin-bottom: 30px;
+      max-width: 400px;
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    @media screen and (max-width: 450px) {
+      margin-bottom: 20px;
+      font-size: 10px;
+      line-height: 11px;
+    }
+  }
+
+  &__input {
+    margin-bottom: 40px;
+    border: 1px solid var(--color-black);
+    padding: 25px 35px;
+    width: 100%;
+    font: 400 25px / 30px "Montserrat", serif;
+
+    &::placeholder {
+      font: 400 25px / 30px "Montserrat", serif;
+      color: var(--color-light-gray);
+
+      @media screen and (max-width: 768px) {
+        font-size: 20px;
+        line-height: 25px;
+      }
+
+      @media screen and (max-width: 450px) {
+        font-size: 10px;
+        line-height: 11px;
+      }
+    }
+
+    &:nth-of-type(2) {
+      margin-bottom: 50px;
+
+      @media screen and (max-width: 768px) {
+        margin-bottom: 20px;
+      }
+
+      @media screen and (max-width: 450px) {
+        margin-bottom: 15px;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      margin-bottom: 20px;
+      padding: 20px 30px;
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    @media screen and (max-width: 450px) {
+      margin-bottom: 15px;
+      padding: 12px 10px;
+      font-size: 10px;
+      line-height: 11px;
+    }
+  }
+
+  &__submit {
+    margin-bottom: 10px;
+    border: 1px solid var(--color-black);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    font: 600 25px / 30px "Montserrat", serif;
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 0 0 0 1px var(--color-black);
+    }
+
+    &:active {
+      background-color: #ededed;
+    }
+
+    @media screen and (max-width: 450px) {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      font-size: 10px;
+      line-height: 11px;
+    }
+  }
+
+  &__policy {
+    align-self: flex-start;
+    margin: 0;
+    max-width: 400px;
+    font: 400 20px/24px "Montserrat", serif;
+    color: #707070;
+
+    &-link {
+      position: relative;
+      color: var(--color-main);
+      transition: color 0.3s ease-in-out;
+
+      &:hover {
+        color: var(--color-accent);
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      max-width: 360px;
+      font-size: 15px;
+      line-height: 20px;
+    }
+
+    @media screen and (max-width: 450px) {
+      max-width: 200px;
+      font-size: 10px;
+      line-height: 11px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    margin: 80px auto;
+    padding: 60px 50px;
+  }
+
+  @media screen and (max-width: 450px) {
+    margin: 25px;
+    padding: 25px 20px;
+  }
+}

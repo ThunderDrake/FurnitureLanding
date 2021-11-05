@@ -1,0 +1,114 @@
+.partners {
+  margin-bottom: 200px;
+
+  &__slider {
+    padding: 10px;
+
+    &-block {
+      position: relative;
+    }
+
+    &-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 30px;
+      height: 143px;
+      box-shadow: 0 0 10px rgba(#c4c4c4, 1);
+      box-sizing: border-box;
+
+      @media screen and (max-width: 1440px) {
+        padding: 10px;
+      }
+
+      @media screen and (max-width: 450px) {
+        height: 40px;
+      }
+    }
+
+    &-image {
+      height: 100%;
+      object-fit: contain;
+    }
+
+    &-arrow {
+      position: absolute;
+      top: 50%;
+      z-index: 2;
+      transform: translateY(-50%);
+      cursor: pointer;
+
+      &-icon {
+        width: 80px;
+        height: 80px;
+
+        @media screen and (max-width: 1440px) {
+          width: 60px;
+          height: 60px;
+        }
+
+        @media screen and (max-width: 768px) {
+          width: 40px;
+          height: 40px;
+        }
+
+        @media screen and (max-width: 450px) {
+          width: 22px;
+          height: 22px;
+        }
+      }
+
+      &--prev {
+        left: -115px;
+
+        @media screen and (max-width: 1440px) {
+          left: -25px;
+        }
+
+        @media screen and (max-width: 1440px) {
+          left: -10px;
+        }
+      }
+
+      &--next {
+        right: -115px;
+        transform: rotate(180deg) translateY(60%);
+
+        @media screen and (max-width: 1440px) {
+          right: -25px;
+        }
+
+        @media screen and (max-width: 1440px) {
+          right: -10px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 1440px) {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+
+    @media screen and (max-width: 768px) {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+
+    @media screen and (max-width: 450px) {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    margin-bottom: 120px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 80px;
+  }
+
+  @media screen and (max-width: 450px) {
+    margin-bottom: 60px;
+  }
+}
