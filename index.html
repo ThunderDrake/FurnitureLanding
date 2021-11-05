@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>New site</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="site-container">
+    <section class="hero">
+      <header class="header">
+  <div class="container header__container">
+    <a href="/" class="header__logo logo">
+      <img src="img/logo.png" alt="" class="logo__image">
+    </a>
+    <button class="burger">
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+    </button>
+    <nav class="header__nav">
+      <ul class="header__nav-list list-reset">
+        <li class="header__nav-item"><a href="#about" class="header__nav-link scroll-link">О компании</a></li>
+        <li class="header__nav-item"><a href="#benefits" class="header__nav-link scroll-link">Почему мы?</a></li>
+        <li class="header__nav-item"><a href="#portfolio" class="header__nav-link scroll-link">Галерея</a></li>
+        <li class="header__nav-item"><a href="#question" class="header__nav-link scroll-link">Вопросы и ответы</a></li>
+        <li class="header__nav-item"><a href="#reviews" class="header__nav-link scroll-link">Отзывы</a></li>
+        <li class="header__nav-item"><a href="#contacts" class="header__nav-link scroll-link">Контакты</a></li>
+      </ul>
+      <a href="tel:+7(812)9292055" class="header__phone">
+        <svg class="header__phone-icon">
+          <use xlink:href="img/sprite.svg#phone-icon">
+        </svg>
+        <span class="header__phone-text">+7 (812) 929-20-55</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+      <div class="container hero__container">
+  <h1 class="hero__title">Торговые и выставочные витрины и стеллажи от производителя</h1>
+  <div class="hero__subtitle">под заказ от 5000 руб со сроком изготовления до 10 дней.</div>
+  <div class="hero__button-wrapper">
+    <a href="#form" class="hero__button button btn-reset scroll-link">Заказать</a>
+    <p class="hero__sell">Акция! При заказе мебели этой осенью — <span>скидка 20%</span></p>
+  </div>
+  <div class="hero__advantages">
+    <div class="hero__advantages-item">
+      <div class="hero__advantages-number">>700</div>
+      <div class="hero__advantages-text">Успешных проектов</div>
+    </div>
+    <div class="hero__advantages-item">
+      <div class="hero__advantages-number">>2160</div>
+      <div class="hero__advantages-text">Изделий произведено</div>
+    </div>
+  </div>
+</div>
+    </section>
+    <section class="about" data-scroll id="about">
+  <div class="container about__container">
+    <h2 class="about__title section-title">О компании</h2>
+    <div class="about__item about__item--right">
+      <div class="about__text">
+        <p>Компания МегаТорг специализируется на изготовлении торговых и выставочных витрин и стеллажей на заказ. Более 9 лет изготавливаем индивидуальные изделия для бизнеса и музеев.</p>
+        <p>На сегодняшний день мы выпустили более 2160 единиц мебели и реализовали 700 успешных проектов.</p>
+        <p>Благодаря собственному мебельному и стекольному производству мы предлагаем самые выгодные условия и высококачественный конечный продукт. Наше производство эффективно отлажено. Благодаря этому сроки изготовления, в среднем, 10 дней.</p>
+      </div>
+      <div class="about__image">
+        <img src="img/about-image-1.jpg" aria-hidden="true">
+      </div>
+    </div>
+    <div class="about__item about__item--left">
+      <div class="about__text">
+        <p>Помимо мебели, мы так же предоставляем услуги по резке и обработке стекла и зеркал на заказ.</p>
+        <p>Каждый год мы совершенствуем наши производственные цеха, что кратно увеличивает качество и скорость изготовления. С нами сотрудничают такие крупные компании, как: “ЭРМИТАЖ”, “Четыре глаза”, “Созвездие красоты”, “Галактика”, “АргусСпектр”, “Галактика”, “Народная аптека”, “SOLGAR”, “Фруктовый рай”.</p>
+        <p>Мы динамично развиваемся, создаем лучшие условия, выгодные цены и всегда рады новым постоянным клиентам.</p>
+        <p>Оставляйте заявку на сайте и убедитесь в  экспертности наших специалистов!</p>
+        <a href="#form" class="about__link scroll-link">Оставить заявку</a>
+      </div>
+      <div class="about__image">
+        <img src="img/about-image-2.jpg" aria-hidden="true">
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="benefits" data-scroll id="benefits">
+  <div class="benefits__container container">
+    <h2 class="benefits__title section-title">Почему стоит выбрать нас</h2>
+    <div class="benefits__wrapper">
+      <div class="benefits__item benefits__tem--left">
+        <div class="benefits__image">
+          <img src="img/benefits-image-1.jpg">
+        </div>
+        <div class="benefits__descr">
+          <div class="benefits__descr-item">
+            <span class="benefits__descr-number benefits__descr-number--accent">01</span>
+            <p class="benefits__descr-text">Обладая производственной площадью более 600 кв.м. имеем возможность выстраивать рабочие цепочки так эффективно, чтобы увеличивалась скорость выпуска до 10 дней без потери качества. </p>
+          </div>
+          <div class="benefits__descr-item">
+            <span class="benefits__descr-number benefits__descr-number--main">02</span>
+            <p class="benefits__descr-text">Мы работаем с большим ассортиментов материалов. Изготавливаем от эконом сегмента, где важен объем и скорость сборки, до премиум класса, где важны детали, оттенки цветов и выделяющийся дизайн.</p>
+          </div>
+        </div>
+      </div>
+      <div class="benefits__item benefits__item--right">
+        <div class="benefits__image">
+          <img src="img/benefits-image-2.jpg">
+        </div>
+        <div class="benefits__descr">
+          <div class="benefits__descr-item">
+            <span class="benefits__descr-number benefits__descr-number--accent">03</span>
+            <p class="benefits__descr-text">Штатные конструктора разрабатывающие документацию перед изготовлением учитывают все нюансы производственного цикла, что исключает ошибки или переделку конструкций. Так же это позволяет увидеть изделие онлайн и скорекктировать под вашу потребность.</p>
+          </div>
+          <div class="benefits__descr-item">
+            <span class="benefits__descr-number benefits__descr-number--main">04</span>
+            <p class="benefits__descr-text">За наш богатый 9-летний опыт работы мы научились предугадывать, что вам нужно и учитываем все пожелания с момента заявки.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="benefits__button-wrapper">
+      <a href="#form" class="benefits__button btn-reset button button--small scroll-link">Заказать</a>
+    </div>
+  </div>
+</section>
+    <section class="partners">
+  <div class="partners__container container">
+    <h2 class="partners__title section-title">Наши партнёры</h2>
+    <div class="partners__slider-block">
+      <div class="partners__slider swiper">
+        <div class="partners__slider-wrapper swiper-wrapper">
+          <div class="partners__slider-slide swiper-slide">
+            <img class="partners__slider-image" src="img/partners-1.jpg" alt="">
+          </div>
+          <div class="partners__slider-slide swiper-slide">
+            <img class="partners__slider-image" src="img/partners-2.jpg" alt="">
+          </div>
+          <div class="partners__slider-slide swiper-slide">
+            <img class="partners__slider-image" src="img/partners-3.jpg" alt="">
+          </div>
+          <div class="partners__slider-slide swiper-slide">
+            <img class="partners__slider-image" src="img/partners-4.jpg" alt="">
+          </div>
+          <div class="partners__slider-slide swiper-slide">
+            <img class="partners__slider-image" src="img/partners-5.jpg" alt="">
+          </div>
+          <div class="partners__slider-slide swiper-slide">
+            <img class="partners__slider-image" src="img/partners-6.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="partners__slider-arrow partners__slider-arrow--prev">
+        <svg class="partners__slider-arrow-icon">
+          <use xlink:href="img/sprite.svg#arrow">
+        </svg>
+      </div>
+      <div class="partners__slider-arrow partners__slider-arrow--next">
+        <svg class="partners__slider-arrow-icon">
+          <use xlink:href="img/sprite.svg#arrow">
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="portfolio" data-scroll id="portfolio">
+  <div class="portfolio__container container">
+    <h2 class="portfolio__title section-title">Наши работы</h2>
+    <div class="portfolio__slider-block">
+      <div class="portfolio__slider swiper">
+        <div class="portfolio__slider-wrapper swiper-wrapper">
+          <div class="portfolio__slider-slide swiper-slide">
+            <img class="portfolio__slider-image" src="img/portfolio-1.jpg" alt="">
+          </div>
+          <div class="portfolio__slider-slide swiper-slide">
+            <img class="portfolio__slider-image" src="img/portfolio-2.jpg" alt="">
+          </div>
+          <div class="portfolio__slider-slide portfolio__slider-slide--tall swiper-slide">
+            <img class="portfolio__slider-image" src="img/portfolio-3.jpg" alt="">
+          </div>
+          <div class="portfolio__slider-slide swiper-slide">
+            <img class="portfolio__slider-image" src="img/portfolio-4.jpg" alt="">
+          </div>
+          <div class="portfolio__slider-slide swiper-slide">
+            <img class="portfolio__slider-image" src="img/portfolio-5.jpg" alt="">
+          </div>
+          <div class="portfolio__slider-slide swiper-slide">
+            <img class="portfolio__slider-image" src="img/portfolio-6.jpg" alt="">
+          </div>
+          <div class="portfolio__slider-slide swiper-slide">
+            <img class="portfolio__slider-image" src="img/portfolio-7.jpg" alt="">
+          </div>
+          <div class="portfolio__slider-slide swiper-slide">
+            <img class="portfolio__slider-image" src="img/portfolio-8.jpg" alt="">
+          </div>
+          <div class="portfolio__slider-slide swiper-slide">
+            <img class="portfolio__slider-image" src="img/portfolio-9.jpg" alt="">
+          </div>
+          <div class="portfolio__slider-slide swiper-slide">
+            <img class="portfolio__slider-image" src="img/portfolio-10.jpg" alt="">
+          </div>
+          <div class="portfolio__slider-slide swiper-slide">
+            <img class="portfolio__slider-image" src="img/portfolio-10.jpg" alt="">
+          </div>
+          <div class="portfolio__slider-slide swiper-slide">
+            <img class="portfolio__slider-image" src="img/portfolio-10.jpg" alt="">
+          </div>
+          <div class="portfolio__slider-slide swiper-slide">
+            <img class="portfolio__slider-image" src="img/portfolio-10.jpg" alt="">
+          </div>
+          <div class="portfolio__slider-slide swiper-slide">
+            <img class="portfolio__slider-image" src="img/portfolio-10.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="portfolio__slider-arrow portfolio__slider-arrow--prev">
+        <svg class="portfolio__slider-arrow-icon">
+          <use xlink:href="img/sprite.svg#arrow">
+        </svg>
+      </div>
+      <div class="portfolio__slider-arrow portfolio__slider-arrow--next">
+        <svg class="portfolio__slider-arrow-icon">
+          <use xlink:href="img/sprite.svg#arrow">
+        </svg>
+      </div>
+    </div>
+    <div class="portfolio__button-wrapper">
+      <a href="#form" class="portfolio__button btn-reset button scroll-link">Заказать</a>
+    </div>
+  </div>
+</section>
+    <section class="question" data-scroll id="question">
+  <div class="question__container container-fluid">
+    <h2 class="question__title section-title">Часто задаваемые вопросы</h2>
+    <ul class="question__list list-reset">
+      <li class="question__item accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <div class="accordion__control-wrapper">
+            <h3 class="accordion__title">Хочу заказать у вас мебель, но не могу определиться с дизайном. Вы можете помочь?</h3>
+            <svg class="accordion__icon" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.000244141 19H37.0002" stroke="#AAAAAA" stroke-width="3"/>
+              <path d="M19.0002 0L19.0002 37" stroke="#AAAAAA" stroke-width="3"/>
+            </svg>
+          </div>           
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          <p>Да, наши специалисты выслушают ваши пожелания и, с удовольствием, помогут в принятии решения по дизайну мебели.</p>
+        </div>
+      </li>
+      <li class="question__item accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <div class="accordion__control-wrapper">
+            <h3 class="accordion__title">Есть ли дополнительные оплаты, после заказа мебели?</h3>
+            <svg class="accordion__icon" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.000244141 19H37.0002" stroke="#AAAAAA" stroke-width="3"/>
+              <path d="M19.0002 0L19.0002 37" stroke="#AAAAAA" stroke-width="3"/>
+            </svg>
+          </div>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          Нет. Цены на наши услуги прописаны в договоре. Цена договора фиксирована.
+        </div>
+      </li>
+      <li class="question__item accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <div class="accordion__control-wrapper">
+            <h3 class="accordion__title">Есть ли гарантия на мебель?</h3>
+            <svg class="accordion__icon" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.000244141 19H37.0002" stroke="#AAAAAA" stroke-width="3"/>
+              <path d="M19.0002 0L19.0002 37" stroke="#AAAAAA" stroke-width="3"/>
+            </svg>
+          </div>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          На всю нашу мебель мы предоставляем гарантию на 1 год.
+        </div>
+      </li>
+      <li class="question__item accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <div class="accordion__control-wrapper">
+            <h3 class="accordion__title">Можно ли делать заказ по индивидуальному дизайну?</h3>
+            <svg class="accordion__icon" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.000244141 19H37.0002" stroke="#AAAAAA" stroke-width="3"/>
+              <path d="M19.0002 0L19.0002 37" stroke="#AAAAAA" stroke-width="3"/>
+            </svg>
+          </div>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          Да. Мы специализируемся на производстве мебели на заказ. И поэтому с радостью выполним заказ по вашему дизайну. 
+        </div>
+      </li>
+      <li class="question__item accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <div class="accordion__control-wrapper">
+            <h3 class="accordion__title">Хочу сделать заказ, что для этого нужно?</h3>
+            <svg class="accordion__icon" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.000244141 19H37.0002" stroke="#AAAAAA" stroke-width="3"/>
+              <path d="M19.0002 0L19.0002 37" stroke="#AAAAAA" stroke-width="3"/>
+            </svg>
+          </div>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          Позвоните нам по тел: <a class="accordion__phone" href="tel:+7(812)9292055">8 (812) 92 92 055</a> или <a class="accordion__form-link" href="">заполните заявку</a> на сайте и наши специалисты ответят на все интересующие вас вопросы!
+        </div>
+      </li>
+      <li class="question__item accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <div class="accordion__control-wrapper">
+            <h3 class="accordion__title">Безопасна ли мебель из ЛДСП?</h3>
+            <svg class="accordion__icon" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.000244141 19H37.0002" stroke="#AAAAAA" stroke-width="3"/>
+              <path d="M19.0002 0L19.0002 37" stroke="#AAAAAA" stroke-width="3"/>
+            </svg>
+          </div>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          Да, безопасность материала подтверждена необходимыми сертификатами.</div>
+      </li>
+      <li class="question__item accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <div class="accordion__control-wrapper">
+            <h3 class="accordion__title">Предлагаете ли вы скидки клиентам?</h3>
+            <svg class="accordion__icon" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.000244141 19H37.0002" stroke="#AAAAAA" stroke-width="3"/>
+              <path d="M19.0002 0L19.0002 37" stroke="#AAAAAA" stroke-width="3"/>
+            </svg>
+          </div>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          Да, мы запускаем акции к праздничным дням. А так же делаем скидки постоянным клиентам.</div>
+      </li>
+      <li class="question__item accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <div class="accordion__control-wrapper">
+            <h3 class="accordion__title">Вы собираете мебель?</h3>
+            <svg class="accordion__icon" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.000244141 19H37.0002" stroke="#AAAAAA" stroke-width="3"/>
+              <path d="M19.0002 0L19.0002 37" stroke="#AAAAAA" stroke-width="3"/>
+            </svg>
+          </div>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          Да, у нас вы можете заказать услугу по сборке и монтажу мебели. </div>
+      </li>
+      <li class="question__item accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <div class="accordion__control-wrapper">
+            <h3 class="accordion__title">Какие документы на мебель вы предоставляете?</h3>
+            <svg class="accordion__icon" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.000244141 19H37.0002" stroke="#AAAAAA" stroke-width="3"/>
+              <path d="M19.0002 0L19.0002 37" stroke="#AAAAAA" stroke-width="3"/>
+            </svg>
+          </div>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          Мы предоставим расчетно-кассовые документы, а так же сертификаты на материалы.</div>
+      </li>
+      <li class="question__item accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <div class="accordion__control-wrapper">
+            <h3 class="accordion__title">Как считается цена?</h3>
+            <svg class="accordion__icon" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.000244141 19H37.0002" stroke="#AAAAAA" stroke-width="3"/>
+              <path d="M19.0002 0L19.0002 37" stroke="#AAAAAA" stroke-width="3"/>
+            </svg>
+          </div>
+        </button>
+        <div class="accordion__content" aria-hidden="true">
+          Цена зависит от количества и качества используемых материалов и фурнитуры. Мы изготавливаем мебель на любой бюджет, от эконом до премиум сегмента.</div>
+      </li>
+      <li class="question__item accordion">
+        <button class="accordion__control" aria-expanded="false">
+          <div class="accordion__control-wrapper">
+            <h3 class="accordion__title">Срок изготовления заказа</h3>
+            <svg class="accordion__icon" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.000244141 19H37.0002" stroke="#AAAAAA" stroke-width="3"/>
+              <path d="M19.0002 0L19.0002 37" stroke="#AAAAAA" stroke-width="3"/>
+            </svg>
+          </div>
+        </button>
+        <div class="accordion__content" aria-hidden="true">Срок изготовления до 10-ти дней. В отдельных случаях, когда при производстве используются крашенные МДФ фасады, сроки могут быть увеличены до 3-х недель.</div>
+      </li>
+    </ul>
+  </div>
+</section>
+    <section class="reviews" data-scroll id="reviews">
+  <div class="reviews__container container">
+    <h2 class="reviews__title section-title">Отзывы наших клиентов</h2>
+    <div class="reviews__slider-block">
+      <div class="reviews__slider swiper">
+        <div class="reviews__slider-wrapper swiper-wrapper">
+          <div class="reviews__slide swiper-slide">
+            <img src="img/reviews-1.jpg" class="reviews__slide-image">
+            <div class="reviews__slide-descr">
+              <div class="reviews__slide-name">Нелли Бородянская</div>
+              <div class="reviews__slide-company">Название компании</div>
+              <p class="reviews__slide-text">Ребята работают очень оперативно и качественно. Вечером приехал замерщик Максим, очень приятный парень. А через 4 дня у меня уже была кухня. Которая полностью вписалась в размеры. Все подогнано тютелька в тютельку. Все убрали. Мусор вывезли. Недостатков не заметила. Спасибо огромное. Я не ожидала что это возможно. За 4 дня!!!</p>
+            </div>
+          </div>
+          <div class="reviews__slide swiper-slide">
+            <img src="img/reviews-1.jpg" class="reviews__slide-image">
+            <div class="reviews__slide-descr">
+              <div class="reviews__slide-name">Нелли Бородянская</div>
+              <div class="reviews__slide-company">Название компании</div>
+              <p class="reviews__slide-text">Ребята работают очень оперативно и качественно. Вечером приехал замерщик Максим, очень приятный парень. А через 4 дня у меня уже была кухня. Которая полностью вписалась в размеры. Все подогнано тютелька в тютельку. Все убрали. Мусор вывезли. Недостатков не заметила. Спасибо огромное. Я не ожидала что это возможно. За 4 дня!!!</p>
+            </div>
+          </div>
+          <div class="reviews__slide swiper-slide">
+            <img src="img/reviews-1.jpg" class="reviews__slide-image">
+            <div class="reviews__slide-descr">
+              <div class="reviews__slide-name">Нелли Бородянская</div>
+              <div class="reviews__slide-company">Название компании</div>
+              <p class="reviews__slide-text">Ребята работают очень оперативно и качественно. Вечером приехал замерщик Максим, очень приятный парень. А через 4 дня у меня уже была кухня. Которая полностью вписалась в размеры. Все подогнано тютелька в тютельку. Все убрали. Мусор вывезли. Недостатков не заметила. Спасибо огромное. Я не ожидала что это возможно. За 4 дня!!!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reviews__slider-arrow reviews__slider-arrow--prev">
+        <svg class="reviews__slider-arrow-icon">
+          <use xlink:href="img/sprite.svg#arrow">
+        </svg>
+      </div>
+      <div class="reviews__slider-arrow reviews__slider-arrow--next">
+        <svg class="reviews__slider-arrow-icon">
+          <use xlink:href="img/sprite.svg#arrow">
+        </svg>
+      </div>
+    </div>
+    <div class="reviews__slider-pagination swiper-pagination"></div>
+  </div>
+</section>
+    <section class="form-section" data-scroll id="form">
+  <h2 class="form-section__title section-title">Обратная связь</h2>
+  <div class="form-background">
+    <form class="form">
+      <h3 class="form__title">Заполните форму и мы свяжемся с вами</h3>
+      <div class="form__subtitle">Акция! При заказе мебели этой осенью — <span>скидка 20%</span></div>
+      <input class="form__input form__input--phone" type="tel" name="userPhone" id="phone" placeholder="Телефон">
+      <input class="form__input form__input--email" type="email" name="userEmail" id="email" placeholder="E-mail">
+      <button class="form__submit" type="submit">Оставить заявку</button>
+      <div class="form__policy">Оставляя заявку, Вы соглашаетесь с <a class="form__policy-link" href="#">Политикой Конфиденциальности</a></div>
+    </form>
+  </div>
+</section>
+    <section class="contacts" data-scroll id="contacts">
+  <h2 class="contacts__title section-title">Контакты</h2>
+  <div class="contacts__block">
+    <div class="contacts__list">
+      <div class="contacts__logo"><img src="img/logo.png"></div>
+      <div class="contacts__list-item">
+        <div class="contacts__list-item-title">Адрес</div>
+        <div class="contacts__list-item-text">Санкт-Петербург, Цветочная улица, 2</div>
+      </div>
+      <div class="contacts__list-item">
+        <div class="contacts__list-item-title">Телефон</div>
+        <div class="contacts__list-item-text">+7 (812) 929-20-54</div>
+      </div>
+      <div class="contacts__list-item">
+        <div class="contacts__list-item-title">Email</div>
+        <div class="contacts__list-item-text">info@shtonda.store</div>
+      </div>
+      <div class="contacts__list-item">
+        <div class="contacts__list-item-title">График работы</div>
+        <div class="contacts__list-item-text">Пн-Пт с 9:00 до 18:00</div>
+      </div>
+    </div>
+    <div class="contacts__map">
+      <img src="img/contacts-map.jpg" class="contacts__map-image">
+    </div>
+  </div>
+</section>
+    <footer class="footer">
+  <div class="footer__container container">
+    <div class="footer__copyright">
+      <div class="footer__copyright-text">2021 Все права защищены</div>
+      <a href="#" class="footer__policy">Политика Конфиденциальности</a>
+    </div>
+    <img class="footer__logo" src="img/logo.png" alt="logo">
+    <ul class="footer__menu list-reset">
+      <li class="footer__menu-item">
+        <a href="#" class="footer__menu-link">О компании</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="#" class="footer__menu-link">Почему мы?</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="#" class="footer__menu-link">Галерея</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="#" class="footer__menu-link">Вопросы и ответы</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="#" class="footer__menu-link">Отзывы</a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="#" class="footer__menu-link">Контакты</a>
+      </li>
+    </ul>
+    <ul class="footer__contacts list-reset">
+      <li class="footer__contacts-item">
+        <div class="footer__contacts-title">Адрес</div>
+        <div class="footer__contacts-text">Санкт-Петербург, Цветочная улица, 2</div>
+      </li>
+      <li class="footer__contacts-item">
+        <div class="footer__contacts-title">Телефон</div>
+        <a class="footer__contacts-text footer__contacts-phone" href="tel:+78129292054">+7 (812) 929-20-54</a>
+      </li>
+      <li class="footer__contacts-item">
+        <div class="footer__contacts-title">График работы</div>
+        <div class="footer__contacts-text">Пн-Пт с 9:00 до 18:00</div>
+      </li>
+    </ul>
+    <div class="footer__authors">
+      <a href="#" class="footer__author">Designed by: Alena Yarisheva</a>
+      <a href="#" class="footer__author">Developed by: Timofey Krivenkov</a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
